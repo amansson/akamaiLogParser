@@ -1,0 +1,16 @@
+{
+  "name": "akamailogparser",
+  "version": "1.0.0",
+  "description": "akamai log parser to json",
+  "main": "index.js",
+  "scripts": {
+    "parse": "node parse.js",
+    "createDb": "node createDb.js",
+    "readDb": "node readDb.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pouchdb": "^7.2.2"
+  }
+}
