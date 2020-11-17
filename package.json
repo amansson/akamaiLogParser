@@ -4,6 +4,7 @@
   "description": "akamai log parser to json",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "parse": "node parse.js",
     "createDb": "node createDb.js",
     "readDb": "node readDb.js"
